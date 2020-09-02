@@ -1,0 +1,3 @@
+# Tabular2FASTA
+
+Tabular2FASTA.py is run from the command line with the script in the same directory as the tabular data and takes a .txt file as an argument (example: Tabular2FASTA.py my_file.txt). The script requires the tabular data to be in a .txt file (copy and paste from a table into notepad or equivalent text editor). The script will then create a fasta file with the sequences in a conventional fasta format. The script assumes the sequence data is in a format whereby the first cell starts with S (for sequence) followed by a cell (in the same row) containing the sequence data.
